@@ -1,0 +1,41 @@
+.naam {
+    font-family: Serif Perpetua;
+    font-size: 60px;
+    margin: 0;
+    padding: 0;
+}
+.vertline{
+    border-left: solid 3px black;
+    height: 1200px;
+    position:absolute;
+    left: 0;
+}
+.vertlineright{
+    border-left: solid 3px black;
+    height: 1200px;
+    position:absolute;
+    left: 130%;
+    margin: 0;
+}
+.marginloos{
+    margin: 0;
+}
+p{
+    margin: 0;
+    font-family: Perpetua, Serif;
+}
+.Links {
+    background-color: grey;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 82.55%;
+    z-index: -1;
+}
+.hfdtable{
+    font-family: Perpetua;
+    font-size: 50px;
+    margin-bottom: 0;
+    padding: 0;
+}
