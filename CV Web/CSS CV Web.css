@@ -1,123 +1,82 @@
-body{
-    background-color: white;
+.bovenkant{
+    top: 0;
+    bottom: 70%;
+    left: 0;
+    right: 0;
+    position: fixed;
 }
-.naam {
-    font-family: Perpetua, serif;
-    font-size: 60px;
-    margin: 0;
-    padding: 0;
+.linksonder{
+    top: 30%;
+    right: 50%;
+    left: 0;
+    bottom: 0;
+    z-index: 0;
+    position: fixed;
 }
-.vertline{
-    border-left: solid 3px black;
-    height: 1200px;
-    position:absolute;
-    left: 0.75%;
-    margin: 0px;
+.voornaam {
+    font-family: Calibri, serif;
+    font-size: 75px;
+    top: 0;
+    bottom: 90%;
+    left: 50%;
+    right: 50%;
+    color: white;
+    position: fixed;
 }
-.vertlineright{
-    border-left: solid 3px black;
-    height: 1200px;
-    position:absolute;
-    left: 101%;
-    margin: 0;
-}
-.marginloos{
-    margin: 0;
-}
-p{
-    margin: 0;
-    font-family: Perpetua, serif;
-}
-.Links {
-    background-color: dimgrey;
+.Top1{
+    background-color: royalblue;
     position: fixed;
     top: 0;
-    bottom: 0;
-    left:0.75%;
-    right: 82.5%;
-    z-index: -1;
-    margin: 0px;
+    bottom: 80%;
+    left: 0;
+    right: 0;
+    z-index: -3;
 }
-table{
-    border-width: 5px;
-    border-color: #c7ced8;
-}
-tr{
-    margin-top: 10%;
-}
-td{
-    margin-bottom: 1em;
-}
-.hfdtable{
-    font-family: "Times New Roman", serif;
-    font-size: 28px;
-    font-weight: bold;
-    padding-top: 30px;
-}
-.txttable{
-    font-family: "Times New Roman", serif;
-    font-size: 20px;
-}
-.tlntable{
-    width: 150px;
-    font-family: "Times New Roman", serif;
-    font-size: 18px;
-}
-.midtekst{
-    justify-content: center;
-    font-family: "Times New Roman", serif;
-}
-.divr{
-    position: sticky;
-    bottom: 0;
-    margin-left: 340px;
-    width: 1400px;
-    border: 3px solid black;
-    color: black;
-}
-.tussentitels1{
-    font-size: 38px;
-    color: mediumseagreen;
-    border-bottom: 3px mediumseagreen solid;
-    display: inline-block;
-    padding-right: 1100px;
-}
-.tussentitels2{
-    font-size: 38px;
-    color: orange;
-    border-bottom: 3px orange solid;
-    display: inline-block;
-    padding-right: 1100px;
-}
-.tussentitels3{
-    font-size: 38px;
-    color: mediumpurple;
-    border-bottom: 3px mediumpurple solid;
-    display: inline-block;
-    padding-right: 1100px;
-}
-.tekstr{
-    font-size: 24px;
-    font-family: "Times New Roman", serif;
-}
-h2 {
-    margin-top: auto;
-    font-size: 28px;
-    font-family: "Times New Roman", serif;
-}
-.plaatsen{
-    margin-top: auto;
-    margin-bottom: 1px;
-    font-size: 26px;
-    font-family: "Times New Roman", serif;
-}
-.circle{
+.Top2{
     background-color: lightgrey;
     position: fixed;
+    top: 20%;
+    bottom: 70%;
+    left: 0;
+    right: 0;
+    z-index: -3;
+}
+.Top3{
+    background-color: #2b2b2a;
+    position: fixed;
+    top:5%;
+    bottom:70%;
+    left:45%;
+    right:20%;
+    z-index: -2;
+}
+.Lijntop3{
+    background-color: white;
+    position: fixed;
+    top: 6%;
+    bottom: 71%;
+    left: 46%;
+    right: 52%;
+    z-index: -1;
+
+}
+.Lijntoprechts3{
+    background-color: white;
+    position: fixed;
+    top: 6%;
+    bottom: 71%;
+    left: 77%;
+    right: 21%;
+    z-index: 0;
+
+}
+.circle1{
+    top: 7%;
+    bottom: 80%;
+    left: 77%;
+    right: 21%;
     border-radius: 50%;
-    left: 65%;
-    bottom: 45%;
-    height: 1500px;
-    width: 1500px;
-    ;
+    color: black;
+    height: 20px;
+    width: 20px;
 }
