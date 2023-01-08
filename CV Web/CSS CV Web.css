@@ -70,7 +70,7 @@
     z-index: -3;
 }
 .Top2{
-    background-color: lightgrey;
+    background-color: #c8c8c8;
     position: fixed;
     top: 20%;
     bottom: 70%;
@@ -139,8 +139,10 @@ td{
 .table5{
     margin-top: 35px;
 }
-.tekstcol{
-    font-family: Calibri, serif;
-    font-size: 22px;
-    column-span: all;
+.fotocv{
+    max-height: 100px;
+    max-width: 100px;
+    top: 3%;
+    left: 20%;
+    position: fixed;
 }
