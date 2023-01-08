@@ -1,3 +1,4 @@
+
 .bovenkant{
     top: 0;
     bottom: 70%;
@@ -6,22 +7,58 @@
     position: fixed;
 }
 .linksonder{
-    top: 30%;
+    top: 32%;
     right: 50%;
-    left: 0;
+    left: 5%;
+    bottom: 0;
+    z-index: 0;
+    position: fixed;
+}
+.rechtsonder{
+    top: 32%;
+    right: 5%;
+    left: 50%;
     bottom: 0;
     z-index: 0;
     position: fixed;
 }
 .voornaam {
     font-family: Calibri, serif;
-    font-size: 75px;
+    font-size: 80px;
+    font-weight: lighter;
     top: 0;
-    bottom: 90%;
-    left: 50%;
+    bottom: 95%;
+    left: 49%;
     right: 50%;
     color: white;
     position: fixed;
+    margin-top: 45px;
+    margin-bottom: 0;
+}
+.achternaam {
+    font-family: Calibri, serif;
+    font-size: 100px;
+    top: 0;
+    bottom: 80%;
+    left: 49%;
+    right: 50%;
+    color: white;
+    position: fixed;
+    margin-top:115px;
+    margin-bottom:0;
+}
+.student{
+    font-family: Calibri, serif;
+    font-size: 45px;
+    font-weight: lighter;
+    top: 0;
+    bottom: 95%;
+    left: 49%;
+    right: 0;
+    color: white;
+    position: fixed;
+    margin-top: 220px;
+    margin-bottom: 0;
 }
 .Top1{
     background-color: royalblue;
@@ -58,7 +95,6 @@
     left: 46%;
     right: 52%;
     z-index: -1;
-
 }
 .Lijntoprechts3{
     background-color: white;
@@ -67,16 +103,44 @@
     bottom: 71%;
     left: 77%;
     right: 21%;
-    z-index: 0;
-
+    z-index: -1;
 }
-.circle1{
-    top: 7%;
-    bottom: 80%;
-    left: 77%;
-    right: 21%;
-    border-radius: 50%;
-    color: black;
-    height: 20px;
-    width: 20px;
+
+.tussentitels{
+    font-family: Calibri, serif;
+    font-size: 34px;
+}
+.tekst{
+    font-family: Calibri, serif;
+    font-size: 22px;
+}
+.table2{
+    margin-top: 35px;
+}
+td{
+    width: 650px;
+}
+.trsmal{
+    width: 500px;
+    font-size: 24px;
+}
+.tekstf{
+    font-family: Calibri, serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+.table3{
+    margin-top: 35px;
+    height: 150px;
+}
+.table4{
+    height: 150px;
+}
+.table5{
+    margin-top: 35px;
+}
+.tekstcol{
+    font-family: Calibri, serif;
+    font-size: 22px;
+    column-span: all;
 }
