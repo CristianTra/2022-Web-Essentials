@@ -141,6 +141,46 @@ td{
     left: 20%;
     position: fixed;
 }
+.dropdownmenu {
+    position: relative;
+    display: inline-block;
+}
+.socialknop{
+    background-color: #2b2b2a;
+    color: white;
+    padding: 26px;
+    font-size: 28px;
+    font-family: Calibri, serif;
+    font-weight: lighter;
+    border: none;
+    bottom: 80%;
+    left: 5.2%;
+    position: fixed;
+}
+.socials{
+    display: none;
+    position: fixed;
+    min-width: 194px;
+    top: 20%;
+    font-size: 18px;
+    left: 5.2%;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: grey;
+    text-decoration: none;
+    text-align: center;
+}
+.socials a {
+    color: black;
+    display: block;
+    text-decoration: none;
+}
+.socials a:hover {background-color: dimgrey;}
+
+.dropdownmenu:hover .socials {
+    display: block;
+}
 @media screen and (max-width: 1000px) {
     .fotocv {
         top: 32%;
@@ -216,6 +256,9 @@ td{
         display: none;
     }
     .Lijntop3{
+        display: none;
+    }
+    .socialknop{
         display: none;
     }
 }
